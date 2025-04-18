@@ -1,0 +1,2581 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>Paryavaran Mitra</title>
+        <style>
+                body {
+                        background-image: url("data:image/jpeg;base64,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");
+                        font-family: Arial, sans-serif;
+                        text-align: center;
+                        margin: 0;
+                        padding: 0;
+                        background-color: darkblue;
+                        /* Soft green representing nature and positivity */
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        /* or background-size: contain; */
+
+                }
+
+                .dataContainer {
+                        max-width: 95%;
+                        margin: 20px auto;
+                        padding: 20px;
+                }
+
+                h1 {
+                        font-size: 5vw;
+                        color: Black;
+                }
+
+                h2 {
+                        font-size: 3vw;
+                        color: Black;
+                }
+
+                p {
+                        font-size: 1.2rem;
+                        color: Black;
+                }
+
+                .catalog {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                        gap: 20px;
+                        margin-top: 30px;
+                }
+
+                .catalog-item {
+                        background: white;
+                        padding: 20px;
+                        border-radius: 10px;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                        cursor: pointer;
+                        transition: transform 0.3s, box-shadow 0.3s;
+                }
+
+                .catalog-item:hover {
+                        transform: scale(1.05);
+                        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+                }
+
+                .catalog-item img {
+                        width: 100%;
+                        height: auto;
+                        max-height: 200px;
+                        object-fit: cover;
+                        border-radius: 8px;
+                }
+
+                .catalog-item h3 {
+                        margin: 15px 0 10px;
+                        color: #1b5e20;
+                }
+
+                @media (max-width: 600px) {
+                        h1 {
+                                font-size: 7vw;
+                        }
+
+                        h2 {
+                                font-size: 5vw;
+                        }
+
+                        p {
+                                font-size: 1rem;
+                        }
+                }
+
+                footer {
+                        color: yellow;
+                }
+
+                .search-container {
+                        margin-bottom: 20px;
+                        padding: 10px;
+                        background: rgba(255, 255, 255, 0.2);
+                        border-radius: 10px;
+                }
+
+                .search-container input,
+                .search-container select {
+                        padding: 8px;
+                        margin: 5px;
+                        border-radius: 5px;
+                        border: none;
+                        font-size: 16px;
+                }
+
+                .send-solution-btn {
+                        position: fixed;
+                        right: 30px;
+                        /* Adjust distance from left */
+                        top: auto;
+                        transform: translateY(-50%);
+                        ;
+                        background-color: #3498db;
+                        color: white;
+                        padding: 12px 20px;
+                        border-radius: 5px;
+                        text-decoration: none;
+                        font-weight: bold;
+                        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+                        transition: background-color 0.3s ease;
+                }
+
+                .send-solution-btn:hover {
+                        background-color: #217dbb;
+                }
+
+                @media screen and (max-width: 1023px) and (min-width: 768px) {
+                        .send-solution-btn {
+                                left: 50%;
+                                top: auto;
+                                bottom: 10px;
+                                transform: translateX(-50%) rotate(0deg);
+                                font-size: 12px;
+                                padding: 10px 16px;
+                        }
+                }
+
+
+                /* Mobile View */
+                @media screen and (max-width: 767px) {
+                        .send-solution-btn {
+                                left: 50%;
+                                top: auto;
+                                bottom: 10px;
+                                transform: translateX(-50%) rotate(0deg);
+                                font-size: 12px;
+                                padding: 10px 16px;
+                        }
+                }
+        </style>
+</head>
+
+<body>
+
+        <header style="background-color: #2c3e50; color: white; padding: 20px; text-align: center;">
+                <h1 style="margin: 0; color:white; font-size: 2.5rem;">Paryavaran Mitra</h1>
+                <p style="color:white;">"Where Awareness Meets Action"</p>
+                <nav style="margin-top: 10px;">
+                        <a href="Home.html"
+                                style="color: white; margin: 0 10px; font-size: 18px; text-decoration: none;">Home</a>
+                        <a href="Air.html"
+                                style="color: white; margin: 0 10px; font-size: 18px; text-decoration: none;">Air</a>
+                        <a href="Noise.html"
+                                style="color: white; margin: 0 10px; font-size: 18px; text-decoration: none;">Noise</a>
+                        <a href="Water.html"
+                                style="color: white; margin: 0 10px; font-size: 18px; text-decoration: none;">Water</a>
+                        <a href="Land.html"style="color: white; margin: 0 10px; font-size: 18px; text-decoration: none;">Land</a>
+                        <a href="SendYourSolution.html" class="send-solution-btn">Send Your Solution</a>
+
+                </nav>
+        </header>
+        <h2>Air Pollution Level</h2>
+        <p>Check out Pollution Level in your City</p>
+        <div class="search-container">
+                <input id="searchCity" onkeyup="filterResults()" placeholder="Search by City..." type="text" />
+                <select id="filterQuality" onchange="filterResults()">
+                        <option value="">All Air Quality</option>
+                        <option value="Satisfactory">Satisfactory</option>
+                        <option value="Moderate">Moderate</option>
+                        <option value="Poor">Poor</option>
+                </select>
+                <input id="minIndex" onkeyup="filterResults()" placeholder="Min Index" type="number" />
+                <input id="maxIndex" onkeyup="filterResults()" placeholder="Max Index" type="number" />
+        </div>
+        <div class="dataContainer">
+                <div class="catalog">
+                        <div class="catalog-item" data-city="Agartala" data-index="82" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Agartala</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>82</b></p>
+                                <p>Prominent Pollutant: <b>O
+                                                3</b></p>
+                                <p>Stations Participated: <b>1/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Agra" data-index="95" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Agra</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>95</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>6/6</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ahmedabad" data-index="149" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Ahmedabad</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>149</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>6/9</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ahmednagar" data-index="156" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Ahmednagar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>156</b></p>
+                                <p>Prominent Pollutant: <b>O
+                                                3</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Aizawl" data-index="78" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Aizawl</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>78</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ajmer" data-index="61" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Ajmer</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>61</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Akola" data-index="102" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Akola</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>102</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Alwar" data-index="97" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Alwar</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>97</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Amaravati" data-index="71" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Amaravati</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>71</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Amravati" data-index="120" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Amravati</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>120</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Amritsar" data-index="108" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Amritsar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>108</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Angul" data-index="160" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Angul</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>160</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Araria" data-index="136" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Araria</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>136</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ariyalur" data-index="71" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Ariyalur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>71</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Arrah" data-index="161" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Arrah</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>161</b></p>
+                                <p>Prominent Pollutant: <b>O
+                                                3</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Asansol" data-index="180" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Asansol</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>180</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>4/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Aurangabad (Bihar)" data-index="98"
+                                data-quality="Satisfactory" onclick="navigateTo('AirPollution.html')"
+                                style="border-left: 10px solid #4CAF50;">
+                                <h3>Aurangabad (Bihar)</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>98</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Aurangabad
+        (Maharashtra)" data-index="85" data-quality="Satisfactory" onclick="navigateTo('AirPollution.html')"
+                                style="border-left: 10px solid #4CAF50;">
+                                <h3>Aurangabad
+                                        (Maharashtra)</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>85</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>3/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Baddi" data-index="121" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Baddi</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>121</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Badlapur" data-index="122" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Badlapur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>122</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Baghpat" data-index="153" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Baghpat</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>153</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Balasore" data-index="144" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Balasore</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>144</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Banswara" data-index="131" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Banswara</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>131</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Baran" data-index="104" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Baran</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>104</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Barbil" data-index="241" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Barbil</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>241</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bareilly" data-index="53" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Bareilly</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>53</b></p>
+                                <p>Prominent Pollutant: <b>PM , SO
+                                                10 2</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Baripada" data-index="130" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Baripada</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>130</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Barmer" data-index="97" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Barmer</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>97</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Barrackpore" data-index="116" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Barrackpore</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>116</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bathinda" data-index="59" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Bathinda</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>59</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Begusarai" data-index="253" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Begusarai</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>253</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Belapur" data-index="133" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Belapur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>133</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bengaluru" data-index="88" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Bengaluru</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>88</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>12/14</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bettiah" data-index="172" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Bettiah</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>172</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bhagalpur" data-index="81" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Bhagalpur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>81</b></p>
+                                <p>Prominent Pollutant: <b>CO</b></p>
+                                <p>Stations Participated: <b>1/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bharatpur" data-index="165" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Bharatpur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>165</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bhilai" data-index="78" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Bhilai</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>78</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>3/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bhilwara" data-index="95" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Bhilwara</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>95</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bhiwadi" data-index="222" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Bhiwadi</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>222</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bhiwandi" data-index="138" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Bhiwandi</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>138</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bhopal" data-index="123" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Bhopal</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>123</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>3/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bhubaneswar" data-index="86" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Bhubaneswar</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>86</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bikaner" data-index="106" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Bikaner</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>106</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bilaspur" data-index="68" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Bilaspur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>68</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bileipada" data-index="154" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Bileipada</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>154</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Boisar" data-index="112" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Boisar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>112</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Brajrajnagar" data-index="106" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Brajrajnagar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>106</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bulandshahr" data-index="157" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Bulandshahr</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>157</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Bundi" data-index="122" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Bundi</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>122</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Buxar" data-index="167" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Buxar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>167</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Byasanagar" data-index="101" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Byasanagar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>101</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Byrnihat" data-index="336" data-quality="Very Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF0000;">
+                                <h3>Byrnihat</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Very Poor</b></p>
+                                <p>Index Value: <b>336</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Chamarajanagar" data-index="44" data-quality="Good"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #00E400;">
+                                <h3>Chamarajanagar</h3>
+                                <p>Air Quality: <b style="color: #D3D3D3;">Good</b></p>
+                                <p>Index Value: <b>44</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Chandigarh" data-index="96" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Chandigarh</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>96</b></p>
+                                <p>Prominent Pollutant: <b>O , PM , PM
+                                                3 2.5 10</b></p>
+                                <p>Stations Participated: <b>3/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Chandrapur" data-index="112" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Chandrapur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>112</b></p>
+                                <p>Prominent Pollutant: <b>O , PM
+                                                3 10</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Charkhi Dadri" data-index="123" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Charkhi Dadri</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>123</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Chennai" data-index="104" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Chennai</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>104</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>8/9</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Chhal" data-index="77" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Chhal</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>77</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Chhapra" data-index="151" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Chhapra</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>151</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Chikkaballapur" data-index="73" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Chikkaballapur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>73</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Chikkamagaluru" data-index="53" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Chikkamagaluru</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>53</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Chittoor" data-index="98" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Chittoor</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>98</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Chittorgarh" data-index="118" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Chittorgarh</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>118</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Churu" data-index="154" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Churu</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>154</b></p>
+                                <p>Prominent Pollutant: <b>O
+                                                3</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Coimbatore" data-index="73" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Coimbatore</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>73</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Cuddalore" data-index="63" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Cuddalore</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>63</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Cuttack" data-index="99" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Cuttack</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>99</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Damoh" data-index="62" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Damoh</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>62</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Dausa" data-index="168" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Dausa</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>168</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Davanagere" data-index="93" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Davanagere</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>93</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Dehradun" data-index="83" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Dehradun</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>83</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Delhi" data-index="209" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Delhi</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>209</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>37/39</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Dewas" data-index="121" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Dewas</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>121</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Dhanbad" data-index="147" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Dhanbad</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>147</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Dharwad" data-index="68" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Dharwad</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>68</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Dholpur" data-index="237" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Dholpur</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>237</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Dhule" data-index="77" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Dhule</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>77</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Dindigul" data-index="101" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Dindigul</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>101</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Dungarpur" data-index="86" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Dungarpur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>86</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Durgapur" data-index="205" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Durgapur</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>205</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>2/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Eloor" data-index="78" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Eloor</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>78</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Faridabad" data-index="161" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Faridabad</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>161</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>3/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Firozabad" data-index="72" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Firozabad</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>72</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Gandhinagar" data-index="119" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Gandhinagar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>119</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>3/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Gaya" data-index="184" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Gaya</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>184</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>2/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ghaziabad" data-index="133" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Ghaziabad</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>133</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>4/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Gorakhpur" data-index="132" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Gorakhpur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>132</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Greater Noida" data-index="164" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Greater Noida</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>164</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Gummidipoondi" data-index="197" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Gummidipoondi</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>197</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Gurugram" data-index="230" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Gurugram</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>230</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>3/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Guwahati" data-index="97" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Guwahati</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>97</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>4/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Gwalior" data-index="269" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Gwalior</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>269</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>4/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Hajipur" data-index="311" data-quality="Very Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF0000;">
+                                <h3>Hajipur</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Very Poor</b></p>
+                                <p>Index Value: <b>311</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Haldia" data-index="75" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Haldia</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>75</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Hanumangarh" data-index="118" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Hanumangarh</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>118</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Hapur" data-index="99" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Hapur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>99</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Hassan" data-index="99" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Hassan</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>99</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Howrah" data-index="93" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Howrah</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>93</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>5/5</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Hubballi" data-index="58" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Hubballi</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>58</b></p>
+                                <p>Prominent Pollutant: <b>PM , CO
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Hyderabad" data-index="90" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Hyderabad</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>90</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>14/14</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Indore" data-index="106" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Indore</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>106</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>4/6</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Jabalpur" data-index="81" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Jabalpur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>81</b></p>
+                                <p>Prominent Pollutant: <b>O , PM
+                                                3 10</b></p>
+                                <p>Stations Participated: <b>4/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Jaipur" data-index="117" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Jaipur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>117</b></p>
+                                <p>Prominent Pollutant: <b>PM , NO
+                                                2.5 2</b></p>
+                                <p>Stations Participated: <b>6/6</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Jaisalmer" data-index="88" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Jaisalmer</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>88</b></p>
+                                <p>Prominent Pollutant: <b>O
+                                                3</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Jalandhar" data-index="107" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Jalandhar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>107</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Jalgaon" data-index="130" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Jalgaon</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>130</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Jalna" data-index="94" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Jalna</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>94</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Jalore" data-index="113" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Jalore</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>113</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Jhalawar" data-index="108" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Jhalawar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>108</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Jhansi" data-index="43" data-quality="Good"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #00E400;">
+                                <h3>Jhansi</h3>
+                                <p>Air Quality: <b style="color: #D3D3D3;">Good</b></p>
+                                <p>Index Value: <b>43</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Jhunjhunu" data-index="136" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Jhunjhunu</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>136</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Jodhpur" data-index="113" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Jodhpur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>113</b></p>
+                                <p>Prominent Pollutant: <b>O , PM
+                                                3 10</b></p>
+                                <p>Stations Participated: <b>5/5</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Kadapa" data-index="110" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Kadapa</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>110</b></p>
+                                <p>Prominent Pollutant: <b>O
+                                                3</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Kalaburagi" data-index="58" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Kalaburagi</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>58</b></p>
+                                <p>Prominent Pollutant: <b>PM , CO
+                                                10</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Kalyan" data-index="96" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Kalyan</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>96</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Kanchipuram" data-index="46" data-quality="Good"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #00E400;">
+                                <h3>Kanchipuram</h3>
+                                <p>Air Quality: <b style="color: #D3D3D3;">Good</b></p>
+                                <p>Index Value: <b>46</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Kanpur" data-index="144" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Kanpur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>144</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>3/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Karur" data-index="84" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Karur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>84</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Karwar" data-index="65" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Karwar</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>65</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Katihar" data-index="93" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Katihar</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>93</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Katni" data-index="107" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Katni</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>107</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Keonjhar" data-index="119" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Keonjhar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>119</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Khanna" data-index="76" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Khanna</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>76</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Khurja" data-index="147" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Khurja</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>147</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Kishanganj" data-index="135" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Kishanganj</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>135</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Kolar" data-index="57" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Kolar</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>57</b></p>
+                                <p>Prominent Pollutant: <b>CO</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Kolhapur" data-index="108" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Kolhapur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>108</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Kolkata" data-index="68" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Kolkata</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>68</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>7/7</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Kollam" data-index="89" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Kollam</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>89</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Korba" data-index="76" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Korba</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>76</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Kota" data-index="133" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Kota</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>133</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>3/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Kunjemura" data-index="120" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Kunjemura</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>120</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Latur" data-index="91" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Latur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>91</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Lucknow" data-index="221" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Lucknow</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>221</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>6/6</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ludhiana" data-index="100" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Ludhiana</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>100</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Madikeri" data-index="52" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Madikeri</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>52</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Madurai" data-index="72" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Madurai</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>72</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Mahad" data-index="139" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Mahad</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>139</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Maihar" data-index="51" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Maihar</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>51</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Malegaon" data-index="120" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Malegaon</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>120</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Mandideep" data-index="215" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Mandideep</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>215</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Mangalore" data-index="64" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Mangalore</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>64</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Manguraha" data-index="108" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Manguraha</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>108</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Meerut" data-index="107" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Meerut</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>107</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>2/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Milupara" data-index="88" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Milupara</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>88</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Mira-Bhayandar" data-index="108" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Mira-Bhayandar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>108</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Moradabad" data-index="107" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Moradabad</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>107</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>6/7</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Motihari" data-index="129" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Motihari</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>129</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Mumbai" data-index="110" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Mumbai</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>110</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>22/30</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Munger" data-index="146" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Munger</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>146</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Muzaffarnagar" data-index="101" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Muzaffarnagar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>101</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Muzaffarpur" data-index="216" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Muzaffarpur</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>216</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>2/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Mysuru" data-index="55" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Mysuru</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>55</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Nagaon" data-index="56" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Nagaon</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>56</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Nagapattinam" data-index="59" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Nagapattinam</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>59</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Nagaur" data-index="122" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Nagaur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>122</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Nagpur" data-index="124" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Nagpur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>124</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>4/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Naharlagun" data-index="83" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Naharlagun</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>83</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Nalbari" data-index="105" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Nalbari</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>105</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Nanded" data-index="119" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Nanded</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>119</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Nashik" data-index="96" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Nashik</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>96</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>4/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Navi Mumbai" data-index="130" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Navi Mumbai</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>130</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>5/8</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Nayagarh" data-index="143" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Nayagarh</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>143</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Noida" data-index="140" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Noida</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>140</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>4/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ooty" data-index="66" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Ooty</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>66</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Pali" data-index="146" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Pali</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>146</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Palkalaiperur" data-index="58" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Palkalaiperur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>58</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Parbhani" data-index="70" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Parbhani</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>70</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Patna" data-index="274" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Patna</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>274</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>5/6</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Pimpri-Chinchwad" data-index="132" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Pimpri-Chinchwad</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>132</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>3/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Pithampur" data-index="111" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Pithampur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>111</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Pratapgarh" data-index="122" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Pratapgarh</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>122</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Prayagraj" data-index="75" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Prayagraj</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>75</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM , SO
+                                                2.5 10 2</b></p>
+                                <p>Stations Participated: <b>3/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Puducherry" data-index="103" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Puducherry</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>103</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Pudukottai" data-index="85" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Pudukottai</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>85</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Pune" data-index="165" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Pune</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>165</b></p>
+                                <p>Prominent Pollutant: <b>O , PM
+                                                3 2.5</b></p>
+                                <p>Stations Participated: <b>9/13</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Purnia" data-index="114" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Purnia</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>114</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Raipur" data-index="96" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Raipur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>96</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>3/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Rajamahendravaram" data-index="83"
+                                data-quality="Satisfactory" onclick="navigateTo('AirPollution.html')"
+                                style="border-left: 10px solid #4CAF50;">
+                                <h3>Rajamahendravaram</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>83</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Rajsamand" data-index="85" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Rajsamand</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>85</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ramanagara" data-index="76" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Ramanagara</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>76</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ramanathapuram" data-index="46" data-quality="Good"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #00E400;">
+                                <h3>Ramanathapuram</h3>
+                                <p>Air Quality: <b style="color: #D3D3D3;">Good</b></p>
+                                <p>Index Value: <b>46</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ranipet" data-index="99" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Ranipet</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>99</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ratlam" data-index="159" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Ratlam</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>159</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Rishikesh" data-index="76" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Rishikesh</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>76</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Rourkela" data-index="154" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Rourkela</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>154</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>3/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Sagar" data-index="88" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Sagar</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>88</b></p>
+                                <p>Prominent Pollutant: <b>O , PM
+                                                3 10</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Saharsa" data-index="173" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Saharsa</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>173</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Salem" data-index="110" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Salem</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>110</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Samastipur" data-index="61" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Samastipur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>61</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Sangli" data-index="182" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Sangli</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>182</b></p>
+                                <p>Prominent Pollutant: <b>O
+                                                3</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Sasaram" data-index="227" data-quality="Poor"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FF8C00;">
+                                <h3>Sasaram</h3>
+                                <p>Air Quality: <b style="color: #FF5733;">Poor</b></p>
+                                <p>Index Value: <b>227</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Satna" data-index="62" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Satna</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>62</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Sawai Madhopur" data-index="114" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Sawai Madhopur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>114</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Shivamogga" data-index="66" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Shivamogga</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>66</b></p>
+                                <p>Prominent Pollutant: <b>O
+                                                3</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Sikar" data-index="111" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Sikar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>111</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Silchar" data-index="71" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Silchar</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>71</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Siliguri" data-index="123" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Siliguri</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>123</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Singrauli" data-index="154" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Singrauli</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>154</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Sirohi" data-index="61" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Sirohi</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>61</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Sivasagar" data-index="78" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Sivasagar</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>78</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Solapur" data-index="160" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Solapur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>160</b></p>
+                                <p>Prominent Pollutant: <b>O , PM , PM
+                                                3 2.5 10</b></p>
+                                <p>Stations Participated: <b>3/3</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Sri Ganganagar" data-index="134" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Sri Ganganagar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>134</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Suakati" data-index="125" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Suakati</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>125</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Surat" data-index="65" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Surat</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>65</b></p>
+                                <p>Prominent Pollutant: <b>CO</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Talcher" data-index="161" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Talcher</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>161</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Tensa" data-index="140" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Tensa</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>140</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Thane" data-index="90" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Thane</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>90</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Thanjavur" data-index="41" data-quality="Good"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #00E400;">
+                                <h3>Thanjavur</h3>
+                                <p>Air Quality: <b style="color: #D3D3D3;">Good</b></p>
+                                <p>Index Value: <b>41</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Thiruvananthapuram" data-index="106"
+                                data-quality="Moderate" onclick="navigateTo('AirPollution.html')"
+                                style="border-left: 10px solid #FFD700;">
+                                <h3>Thiruvananthapuram</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>106</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>2/2</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Thoothukudi" data-index="47" data-quality="Good"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #00E400;">
+                                <h3>Thoothukudi</h3>
+                                <p>Air Quality: <b style="color: #D3D3D3;">Good</b></p>
+                                <p>Index Value: <b>47</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Thrissur" data-index="57" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Thrissur</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>57</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Tiruchirappalli" data-index="89"
+                                data-quality="Satisfactory" onclick="navigateTo('AirPollution.html')"
+                                style="border-left: 10px solid #4CAF50;">
+                                <h3>Tiruchirappalli</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>89</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Tirumala" data-index="92" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Tirumala</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>92</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Tirunelveli" data-index="40" data-quality="Good"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #00E400;">
+                                <h3>Tirunelveli</h3>
+                                <p>Air Quality: <b style="color: #D3D3D3;">Good</b></p>
+                                <p>Index Value: <b>40</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Tirupati" data-index="127" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Tirupati</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>127</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Tirupur" data-index="104" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Tirupur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>104</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Tonk" data-index="91" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Tonk</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>91</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Tumakuru" data-index="154" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Tumakuru</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>154</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Udaipur" data-index="109" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Udaipur</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>109</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Udupi" data-index="98" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Udupi</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>98</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ujjain" data-index="126" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Ujjain</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>126</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Ulhasnagar" data-index="114" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Ulhasnagar</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>114</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Vapi" data-index="160" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Vapi</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>160</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Varanasi" data-index="55" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Varanasi</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>55</b></p>
+                                <p>Prominent Pollutant: <b>PM , PM
+                                                2.5 10</b></p>
+                                <p>Stations Participated: <b>4/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Vatva" data-index="138" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Vatva</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>138</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Vijayapura" data-index="47" data-quality="Good"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #00E400;">
+                                <h3>Vijayapura</h3>
+                                <p>Air Quality: <b style="color: #D3D3D3;">Good</b></p>
+                                <p>Index Value: <b>47</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Vijayawada" data-index="77" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Vijayawada</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>77</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                2.5</b></p>
+                                <p>Stations Participated: <b>3/4</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Virar" data-index="83" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Virar</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>83</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Virudhunagar" data-index="86" data-quality="Satisfactory"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #4CAF50;">
+                                <h3>Virudhunagar</h3>
+                                <p>Air Quality: <b style="color: #4CAF50;">Satisfactory</b></p>
+                                <p>Index Value: <b>86</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Visakhapatnam" data-index="111" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Visakhapatnam</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>111</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Vrindavan" data-index="122" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Vrindavan</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>122</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                        <div class="catalog-item" data-city="Yadgir" data-index="101" data-quality="Moderate"
+                                onclick="navigateTo('AirPollution.html')" style="border-left: 10px solid #FFD700;">
+                                <h3>Yadgir</h3>
+                                <p>Air Quality: <b style="color: #FFD700;">Moderate</b></p>
+                                <p>Index Value: <b>101</b></p>
+                                <p>Prominent Pollutant: <b>PM
+                                                10</b></p>
+                                <p>Stations Participated: <b>1/1</b></p>
+                                <button onclick="navigateTo('solution.html')">Solution</button>
+                        </div>
+                </div>
+        </div>
+        <div id="catalog" class="catalog"></div>
+        <footer style="background-color: #333; color: white; text-align: center; padding: 20px;">
+                <h2 style="color: white; text-decoration: none;">Prayavaran Mitra</h2>
+                <p>
+                        <a href="About.html" style="color: white; text-decoration: none; margin-right: 15px;">
+                                <div
+                                        style="display: inline-block; padding: 10px 20px; border: 2px solid white; border-radius: 8px;">
+                                        About
+                                </div>
+                        </a>
+                        |
+                        <a href="Contact.html" style="color: white; text-decoration: none; margin-left: 15px;">
+                                <div
+                                        style="display: inline-block; padding: 10px 20px; border: 2px solid white; border-radius: 8px;">
+                                        Contact
+                                </div>
+                        </a>
+                </p>
+                <p style="color: white; text-decoration: none;">&copy; 2025 Prayavaran Mitra. All rights reserved.</p>
+        </footer>
+        <script>
+                function navigateTo(page) {
+                        window.location.href = page;
+                }
+                function filterResults() {
+                        let searchCity = document.getElementById("searchCity").value.trim().toLowerCase();
+                        let selectedQuality = document.getElementById("filterQuality").value.trim().toLowerCase();
+                        let minIndex = document.getElementById("minIndex").value.trim();
+                        let maxIndex = document.getElementById("maxIndex").value.trim();
+
+                        let minIndexNum = minIndex ? parseInt(minIndex) : Number.NEGATIVE_INFINITY;
+                        let maxIndexNum = maxIndex ? parseInt(maxIndex) : Number.POSITIVE_INFINITY;
+
+                        let items = document.querySelectorAll(".catalog-item");
+
+                        items.forEach(item => {
+                                let city = item.getAttribute("data-city").trim().toLowerCase();
+                                let quality = item.getAttribute("data-quality").trim().toLowerCase();
+                                let index = parseInt(item.getAttribute("data-index"));
+
+                                let matchesCity = city.includes(searchCity);
+                                let matchesQuality = selectedQuality === "" || quality === selectedQuality;
+                                let matchesIndex = index >= minIndexNum && index <= maxIndexNum;
+
+                                item.style.display = matchesCity && matchesQuality && matchesIndex ? "block" : "none";
+                        });
+                }
+
+
+        </script>
+</body>
+
+</html>
